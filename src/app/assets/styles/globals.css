@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply h-full bg-[#09090b] text-[#fafafa] select-none
+  }
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px
+}
+
+::-webkit-scrollbar-track {
+  background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222121;
+  border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555
+}
